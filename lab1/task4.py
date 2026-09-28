@@ -1,0 +1,5 @@
+seconds = int(input())
+sec = str(seconds%60).zfill(2)
+min = str(seconds//60%60).zfill(2)
+hrs = str(seconds//60//60%60).zfill(2)
+print(f'{hrs}:{min}:{sec}')
